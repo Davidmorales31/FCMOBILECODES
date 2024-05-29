@@ -1,5 +1,5 @@
 // Generator Random Number for images 
-let randomNumber = Math.floor(Math.random() * 4) + 1;
+let randomNumber = Math.floor(Math.random() * 5) + 1;
 console.log(randomNumber);
 
 // Create the components DOM´S
