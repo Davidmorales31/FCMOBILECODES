@@ -11,3 +11,21 @@ newImage.src = `/Images/BodyImage${randomNumber}.png`;
 newImage.classList.add("ImageBody");
 // Add the new Image to the ImageCont
 ImageCont.appendChild(newImage);
+
+
+// Add logic for change the Idiom
+/* function changeIdiom(){
+
+    const img1 ='/Images/FCMobileCodes.ico';
+    const img2 = '/Images/español.png';
+
+
+
+    var idiomImage =  document.getElementById('imageIdiom');
+    let imageActual =  idiomImage.src;
+    if(imageActual === img1){
+        idiomImage.src = img2;
+    }else{
+        idiomImage.src = img1;
+    }
+} */
