@@ -14,18 +14,17 @@ ImageCont.appendChild(newImage);
 
 
 // Add logic for change the Idiom
-/* function changeIdiom(){
+const changeIdiomButton = document.getElementById('imageIdiom');
 
-    const img1 ='/Images/FCMobileCodes.ico';
-    const img2 = '/Images/español.png';
-
-
-
-    var idiomImage =  document.getElementById('imageIdiom');
-    let imageActual =  idiomImage.src;
-    if(imageActual === img1){
-        idiomImage.src = img2;
-    }else{
-        idiomImage.src = img1;
-    }
-} */
+/*changeIdiomButton.addEventListener('click', function(){
+    const textTitle = document.getElementById('title');
+    const textAlertNewCode = document.getElementById('alertNewCode'); 
+    const textRedeemCodes = document.getElementById('redeemCodes'); 
+    const textTitleDescription = document.getElementById('titleDescription'); 
+    const textSubTitleDescription = document.getElementById('subTitleDescription'); 
+    textTitle.textContent = 'CODIGOS DISPONIBLES';
+    textAlertNewCode.textContent = '¡Nuevo codigo!';
+    textRedeemCodes.textContent = 'Reclama tu codigo'
+    textTitleDescription.textContent = 'Codigos del FC Mobile | Reclama tus codigos';
+    textSubTitleDescription.textContent = 'Encuentra y canjea códigos de recompensas';
+})*/

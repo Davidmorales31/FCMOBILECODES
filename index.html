@@ -19,7 +19,7 @@
                 <div class="content-body">
                 <div class="icon-header contenedorCentradoV">
                 <a href="index.html"> <img class="float-left img-content" src="/Images/FCMobileCodes.ico" alt="Logo FC Mobile Redeem codes"> </a>     
-           <!--   <img class="float-left img-content" src="/Images/español.png" alt="Logo FC Mobile Redeem codes" onclick="changeIdiom()" id="imageIdiom" > </img>      -->   
+       <!--     <button class="float-left img-content" src="/Images/español.png" alt="Logo FC Mobile Redeem codes" onclick="changeIdiom()" id="imageIdiom" > Spanish </button>     -->  
                 </div>
                 <div class="login-header contenedorCentradoV float-right">
                 </div>
@@ -35,10 +35,10 @@
             <!--       <img class="ImageBody" src="/Images/BodyImage4.png" alt="ImageBody"> --> 
                 </div>
                 <div class="body-2">
-                    <h1 class="poppins-black"> AVAILABLE CODES </h1>
-                    <label style="color: orange; font-size: 3vh;"> New code! </label> 
+                    <h1 id="title" class="poppins-black"> AVAILABLE CODES </h1>
+                    <label id="alertNewCode"style="color: orange; font-size: 3vh;"> New code! </label> 
                     <br>
-                    <button class="button-code poppins-extrabold "> KNOCKOUTS </button>
+                    <button class="button-code poppins-extrabold "> QUARTERFINALS </button>
                     <br>
                     <br>
                     <button class="button-code poppins-extrabold "> 1000GEMS </button>
@@ -49,7 +49,9 @@
                     <br>
                     <button class="button-code poppins-extrabold "> PHOSMANE </button>
                     <br>
-                 <a href="https://redeem.fcm.ea.com/da-dk/?source=fcm-code-faq&setLocale=da-dk">  <button class="button-code2 poppins-semibold-italic"> Redeem Codes </button> </a> 
+                    <button class="button-code poppins-extrabold "> KNOCKOUTS </button>
+                    <br>
+                 <a href="https://redeem.fcm.ea.com/da-dk/?source=fcm-code-faq&setLocale=da-dk">  <button id="redeemCodes" class="button-code2 poppins-semibold-italic"> Redeem Codes </button> </a> 
                 </div>
             </div>
         </section>
@@ -64,8 +66,8 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="footer-text">
-                                    <h1 class="poppins-bold"> FC Mobile codes | Redeem codes </h1>
-                                    <p class="poppins-light"> Find and redeem rewards codes </p>
+                                    <h2 id="titleDescription" class="poppins-bold"> FC Mobile codes | Redeem codes </h2>
+                                    <p id="subTitleDescription" class="poppins-light"> Find and redeem rewards codes </p>
                                 </div>
                                 <div class="footer-Downloads">
                                     <a href="#">  <img  class="Download-Img" src="/Images/DownloadPlayStore.png"> </a>
