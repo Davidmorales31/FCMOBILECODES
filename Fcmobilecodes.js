@@ -27,4 +27,5 @@ const changeIdiomButton = document.getElementById('imageIdiom');
     textRedeemCodes.textContent = 'Reclama tu codigo'
     textTitleDescription.textContent = 'Codigos del FC Mobile | Reclama tus codigos';
     textSubTitleDescription.textContent = 'Encuentra y canjea códigos de recompensas';
+    hi los
 })*/
